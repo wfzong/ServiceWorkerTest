@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Service Worker 测试</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script>
+        // if ('serviceWorker' in navigator) {
+        //     window.addEventListener('load', function () {
+        //         navigator.serviceWorker.register('./js/sw.js', { scope: '/' })
+        //             .then(function (registration) {
+
+        //                 // 注册成功
+        //                 console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        //             })
+        //             .catch(function (err) {
+        //                 // 注册失败:(
+        //                 console.log('ServiceWorker registration failed: ', err);
+        //             });
+        //     });
+        // }
+    </script>
+</head>
+
+<body>
+    <h2>这里是文章页</h2>
+    <p>文章内容</p>
+    <p>返回 <a href="/index.html">首页</a></p>
+
+    <img src="http://www.ruanyifeng.com/blogimg/asset/2017/bg2017030305.png" alt=""> <br>
+    <script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
