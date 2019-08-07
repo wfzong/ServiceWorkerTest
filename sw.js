@@ -1,4 +1,4 @@
-var serviceVersion = 'cache-v3'
+var serviceVersion = 'cache-v4'
 
 // 监听 service worker 的 install 事件
 this.addEventListener('install', function (event) {
